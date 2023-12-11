@@ -12,6 +12,12 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.container {
+    width: 1684px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 .list {
     list-style: none;
 }
@@ -24,16 +30,18 @@ body {
     color: #D61FDA;
 }
 .header {
-    height: 115px;
-    padding-top: 43px;
+    /* padding-top: 43px;
     padding-left: 202px;
-    padding-bottom: 43px;
+    padding-bottom: 43px; */
 
 }
 
 .header-list{
     display: flex;
     align-items: center;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    background-color: pink;
 }
 
 .header-nav {
@@ -92,9 +100,10 @@ body {
 
 /* hero */
 .hero {
-    height: 864px;
     padding-top: 110px;
-    padding-left: 202px;
+    padding-bottom: 269px;
+    /* padding-left: 202px; */
+    background-color: purple;
 
 }
 .hero-title {
@@ -139,8 +148,8 @@ body {
 
 /* advantages */
 .advantages {
-    height: 453px;
     text-align: center;
+    padding: 91px 205px;
     background: linear-gradient(95deg, #FFF5DD 1.6%, rgba(170, 86, 254, 0.32) 38.13%, rgba(254, 86, 217, 0.28) 58.65%, rgba(86, 254, 254, 0.28) 99.73%);
 }
 .advantages-list {
@@ -149,16 +158,10 @@ body {
 .advantages-item {
     display: inline-block;
     width: 326px;
-    padding-top: 100px;
-    padding-right: 116px;
-    padding-bottom: 100px;
-    /* background-color: darkblue;
-    width: 100px;
-    padding-right: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    margin-right: 0; */
+margin-right: 116px; 
+}
+.advantages-item:last-child {
+    margin-right: 0;
 }
 .advantages-img {
 }
@@ -182,9 +185,7 @@ line-height: 1.2;
     text-align: center;
     font-weight: 400;
     line-height: 1.2; 
-    width: 1920px;
-padding-bottom: 144px;
-    
+
 }
 .intro-elipse {
     width: 615.039px;
